@@ -4,3 +4,16 @@ version = "0.1.0"
 authors = ["Marcus Ball <marcus@marcusball.me>"]
 
 [dependencies]
+error-chain="0.7"
+iron = "0.4.0"
+params = "*"
+router = "*"
+logger = "*"
+serde = "0.8"
+serde_json = "0.8"
+serde_derive = "0.8.19"
+dotenv = "0.8.0"
+log = "0.3.6"
+env_logger = "0.3.5"
+iron_error_logger = { git = "https://github.com/marcusball/iron_error_logger.git" }
+chrono = "0.2.25"
